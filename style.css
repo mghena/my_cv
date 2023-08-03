@@ -1,0 +1,107 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0%;
+    height: 100%;
+}
+header {
+    background: black;
+    height: 400px;
+    margin: 0;
+    padding: 0%;
+}
+nav {
+    display: block;
+    height: 60px;
+    padding: 0%;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 280px; 
+    padding-top: 15px;
+  }
+nav li {
+    display: inline;
+    font-size: 25px;
+    padding: 1px;
+    color: #FFF;
+    margin-left: 15px;  margin-top: 20px;
+    text-decoration: none;
+}
+.photoName {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    margin-top: 15px;
+}
+.myPhoto {
+    display: flex;
+}
+.myPhoto img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-top: 0px; margin-left: 60px;
+}
+.myName {
+    margin-left: 100px; margin-top: 60px;
+    display: inline-block;
+}
+h1 {
+    color: #FFF;
+    font-size: 70px;
+    display: inline;
+    
+}
+.myProf {
+    margin-top: 80px;
+    display: inline;
+}
+.myProf span {
+    color: #FFF;
+    font-size: 55px;
+    display: inline;
+}
+main {
+    display: flex;
+}
+aside {
+    color: #FFF;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 1000px;
+    border: 1px solid black;
+    padding-left: 15px; padding-top: 20px;
+}
+aside h2 {
+    margin-left: 80px;
+    font-size: 40px;
+}
+aside li {
+    font-size: 25px;
+    line-height: 40px;
+}
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+
+a {
+    transition: 1s;
+}
+a:hover{
+    color: red; /* Меняем цвет ссылки */
+  }
